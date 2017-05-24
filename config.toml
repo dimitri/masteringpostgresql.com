@@ -1,0 +1,31 @@
+baseurl = "https://masteringpostgresql.com/"
+relativeURLs = false
+languageCode = "en-us"
+title = "Mastering PostgreSQL"
+theme = "landing-page-hugo"
+publishDir = "docs"
+
+[params]
+	description = "Mastering PostgreSQL for Application Developers, the book"
+        custom_css = ["css/local.css"]
+
+[[params.social]]
+	title = "Blog"
+	icon = "book"
+	url = "http://tapoueh.org/categories/yesql/"
+[[params.social]]
+	title = "email"
+	icon = "envelope-o"
+	url = "mailto:dim@tapoueh.org"
+[[params.social]]
+	title = "twitter"
+	icon = "twitter"
+	url = "https://twitter.com/tapoueh"
+[[params.social]]
+	title = "github"
+	icon = "github"
+	url = "https://github.com/dimitri"
+# [[params.social]]
+# 	title = "linkedin"
+# 	icon = "linkedin"
+# 	url = "https://fr.linkedin.com/in/dimitrifontaine"
