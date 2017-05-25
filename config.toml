@@ -1,4 +1,4 @@
-baseurl = "https://masteringpostgresql.com/"
+baseurl = "http://masteringpostgresql.com/"
 relativeURLs = false
 languageCode = "en-us"
 title = "Mastering PostgreSQL"
