@@ -6,18 +6,17 @@
     <description>Recent content in Abouts on Mastering PostgreSQL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2015 14:08:35 +0200</lastBuildDate>
     
 	<atom:link href="http://masteringpostgresql.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Open Source Software Engineer</title>
-      <link>http://masteringpostgresql.com/about/about/</link>
-      <pubDate>Sat, 18 Jul 2015 14:08:35 +0200</pubDate>
+      <title>Mastering PostgreSQL in Application Development</title>
+      <link>http://masteringpostgresql.com/about/book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://masteringpostgresql.com/about/about/</guid>
-      <description>Hi! My name is Dimitri. I have been using and contributing to Open Source Software for the best of the last twenty years. I took role as developer, maintainer, packager, release manager, software architect, database architect and administrator, sometimes devops. In the same time frame I also have started several companies (they are still thriving) with a strong Open Source business model, and I have been in manager positions at times too, including at the Executive level in big companies.</description>
+      <guid>http://masteringpostgresql.com/about/book/</guid>
+      <description>I am writing a book to share my knowledge about how to best use PostgreSQL as an application developer. If you&amp;rsquo;ve evered ask yourself how much should I have my database do for me? this book is for you. If you&amp;rsquo;re thinking that using an ORM might not always be the best option out there, if sometimes you wish SQL was easier to maintain than those concatenated strings with conditionals, then this book can&amp;rsquo;t wait for you!</description>
     </item>
     
   </channel>

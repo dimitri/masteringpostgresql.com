@@ -56,10 +56,6 @@
                     <a class="page-scroll" href="#services">Services</a>
                 </li>
                 
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                
             </ul>
         </div>
         
@@ -77,41 +73,8 @@
 		    <div class="col-lg-12">
 			<div class="intro-message">
 			    <h1>Mastering PostgreSQL</h1>
-			    <h3>Mastering PostgreSQL for Application Developers, the book</h3>
+			    <h3></h3>
 			    <hr class="intro-divider">
-			    
-			    <ul class="list-inline intro-social-buttons">
-				        
-	<li>
-		<a href="http://tapoueh.org/categories/yesql/" class="btn btn-default btn-lg">
-			<i class="fa fa-book fa-fw"></i>
-			<span class="network-name">Blog</span>
-		</a>
-	</li>
-
-	<li>
-		<a href="mailto:dim@tapoueh.org" class="btn btn-default btn-lg">
-			<i class="fa fa-envelope-o fa-fw"></i>
-			<span class="network-name">email</span>
-		</a>
-	</li>
-
-	<li>
-		<a href="https://twitter.com/tapoueh" class="btn btn-default btn-lg">
-			<i class="fa fa-twitter fa-fw"></i>
-			<span class="network-name">twitter</span>
-		</a>
-	</li>
-
-	<li>
-		<a href="https://github.com/dimitri" class="btn btn-default btn-lg">
-			<i class="fa fa-github fa-fw"></i>
-			<span class="network-name">github</span>
-		</a>
-	</li>
-
-
-			    </ul>
 			    
 			</div>
 		    </div>
@@ -128,267 +91,47 @@
 <section id="about" class="container content-section text-center">
 
 	<div class="row">
-		<div class="col-lg-6 col-lg-offset-3">
-			<br/>
-			<br/>
-			<h2>Open Source Software Engineer</h2>
-			<br/>
-			
-<figure class="left img-responsive dim-margin">
-    
-        <img src="/img/dimface.320.png" />
-    
-    
-</figure>
-
-
-<p>Hi! My name is Dimitri. I have been using and contributing to Open Source
-Software for the best of the last twenty years. I took role as developer,
-maintainer, packager, release manager, software architect, database
-architect and administrator, sometimes <em>devops</em>. In the same time frame I
-also have started several companies (they are still thriving) with a strong
-Open Source business model, and I have been in <em>manager</em> positions at times
-too, including at the Executive level in big companies.</p>
-
-<p>If you&rsquo;ve
-read
-<a href="https://charity.wtf/2017/05/11/the-engineer-manager-pendulum/">Charity Major&rsquo;s Engineer/Manager Pendulum</a> piece,
-there&rsquo;s something to that in my career up to now, definitely. From the
-hacker guy to the CEO of a small company, from the PostgreSQL Major
-Contributor to the CTO of a big company.</p>
-
-			<br/>
-		</div>
-	</div>
-
-</section>
-
-<section id="services">
-
-
- 
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">PostgreSQL Major Contributor</h2>
-                    <p>The most notable project I have contributed to
-is <a href="https://www.postgresql.org">PostgreSQL</a>. I wrote
-the
-<a href="https://www.postgresql.org/docs/current/static/extend-extensions.html">Extension Packaging</a> feature
-and
-the
-<a href="https://www.postgresql.org/docs/current/static/event-triggers.html">Event Triggers</a> facility,
-among other contributions.</p>
-
-<p>As
-a
-<a href="https://www.debian.org">debian</a> <a href="https://qa.debian.org/developer.php?login=dim@tapoueh.org">maintainer</a> I
-also participated into building a PostgreSQL repository for all currently
-supported version of both PostgreSQL and debian, available
-at <a href="https://wiki.postgresql.org/wiki/Apt">apt.postgresql.org</a>,
-with <a href="https://github.com/ChristophBerg">Christoph Berg</a>
-and <a href="https://blog.hagander.net">Magnus Hagander</a>.</p>
-
-<p>My main project related to PostgreSQL these days
-is <a href="http://pgloader.io">pgloader</a> which allows loading data into PostgreSQL
-and include facilities to handle a full database migration from a live
-database connection!</p>
-
-                </div>
-                
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/postgresql-elephant.png" alt="">
-                </div>
-                
-            </div>
-
-        </div>
-        
-
-    </div>
-    
-    
-    
-    
-
-    
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">pgloader: automated migration to PostgreSQL</h2>
-                    <p><a href="http://pgloader.io">pgloader</a> is an awesome database migration tool that I
-wrote, open source and available at <a href="http://github.com/dimitri/pgloader">http://github.com/dimitri/pgloader</a>.
-You can use it in a <em>Continuous Integration</em> environment and keep migrating
-your <strong>schema</strong> and <strong>data</strong> until your application tests all pass, then
-decide to go live with PostgreSQL!</p>
-
-<p>In the general case to migrate from
-a <a href="https://www.youtube.com/watch?v=emgJtr9tIME">MySQL</a> to PostgreSQL
-with <a href="http://pgloader.io">pgloader</a> all you need to do is run a single
-command:</p>
-
-<pre><code>$ pgloader mysql://user@host/dbname pgsql:///dbname
-</code></pre>
-
-<p>Also supported are SQLite and Microsoft® SQL Server. Email me if you want to
-add Oracle™ to the list!</p>
-
-                </div>
-                
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/type-casting-machine.500.jpg" alt="">
-                </div>
-                
-            </div>
-
-        </div>
-        
-
-    </div>
-    
-    
-    
-
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Open Source Software Engineer</h2>
-                    <p>I can help you use PostgreSQL in your development environment, be
-it <a href="https://golang.org">Go</a>
-or <a href="https://jdbc.postgresql.org">Java</a>, <a href="http://www.erlang.org">Erlang</a>
-or
-<a href="https://common-lisp.net">Common Lisp</a>,
-<a href="https://www.python.org">Python</a>, <a href="https://www.ruby-lang.org/en/">Ruby</a>
-or <a href="http://php.net">PHP</a>, or something else entirely. It&rsquo;s
-still <a href="https://www.postgresql.org">PostgreSQL</a> after all&hellip;</p>
-
-<p>The first step here is realizing that your database engine actually is part
-of your application logic. Any SQL statement you write, even the simplest
-possible, embeds some logic already: you are <em>projecting</em> a particular set
-of columns, <em>filtering</em> the result to only a part of the available data set
-(thanks to the <code>where</code> clause), and you want to receive the result in a
-known <em>ordering</em>. That already is business logic. Application code written
-in SQL.</p>
-
-                </div>
-                
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/gnu.png" alt="">
-                </div>
-                
-            </div>
-
-        </div>
-        
-
-    </div>
-    
-    
-    
-    
-
-    
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Mastering PostgreSQL in Application Development</h2>
-                    <p>I am writing a book to share my knowledge about how to best
-use <a href="https://www.postgresql.org">PostgreSQL</a> as an application developer. If
-you&rsquo;ve evered ask yourself <em>how much should I have my database do for me?</em>
-this book is for you. If you&rsquo;re thinking that using an ORM might not always
-be the best option out there, if sometimes you wish SQL was easier to
-maintain than those concatenated strings with conditionals, then this book
-can&rsquo;t wait for you!</p>
+		
+			<br/>
+			<br/>
+			<h2>Mastering PostgreSQL in Application Development</h2>
+			<br/>
+			<p>I am writing a book to share my knowledge about how to best use PostgreSQL
+as an application developer. If you&rsquo;ve evered ask yourself <em>how much should
+I have my database do for me?</em> this book is for you. If you&rsquo;re thinking that
+using an ORM might not always be the best option out there, if sometimes you
+wish SQL was easier to maintain than those concatenated strings with
+conditionals, then this book can&rsquo;t wait for you!</p>
 
 <p><em>Mastering PostgreSQL in Application Development</em> is answering practical
 questions every developer is confronted to when using PostgreSQL. For
 instance, should PostgreSQL be a convenient remote storage facility, or is
 there something more to it that comes with those ACID properties?</p>
 
-                </div>
+			<br/>
+		</div>
                 
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/book.jpg" alt="">
+                
+                    <img class="img-responsive" src="img/book.jpg" alt="">
                 </div>
                 
-            </div>
-
-        </div>
-        
-
-    </div>
-    
-    
-    
-
-
+	</div>
 
 </section>
-
 
 <section id="contact">
 <div class="contact">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6">
-				<h2>Stay In Touch:</h2>
-			</div>
+			
+			
+			
 
                         <div class="col-lg-12" style="text-align: center;">
 		          <ul class="list-inline contact-social-buttons">
 		            
-	<li>
-		<a href="http://tapoueh.org/categories/yesql/" class="btn btn-default btn-lg">
-			<i class="fa fa-book fa-fw"></i>
-			<span class="network-name">Blog</span>
-		</a>
-	</li>
-
-	<li>
-		<a href="mailto:dim@tapoueh.org" class="btn btn-default btn-lg">
-			<i class="fa fa-envelope-o fa-fw"></i>
-			<span class="network-name">email</span>
-		</a>
-	</li>
-
-	<li>
-		<a href="https://twitter.com/tapoueh" class="btn btn-default btn-lg">
-			<i class="fa fa-twitter fa-fw"></i>
-			<span class="network-name">twitter</span>
-		</a>
-	</li>
-
-	<li>
-		<a href="https://github.com/dimitri" class="btn btn-default btn-lg">
-			<i class="fa fa-github fa-fw"></i>
-			<span class="network-name">github</span>
-		</a>
-	</li>
-
 
 		          </ul>
 		        </div>
@@ -404,12 +147,54 @@ there something more to it that comes with those ACID properties?</p>
 </div>
 </section>
 
+<section id="services">
+
+
+ 
+    
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">About the Author</h2>
+                    <p>Hi! My name is <strong><em>Dimitri Fontaine</em></strong> and I have been using and contributing
+to Open Source Software for the best of the last twenty years. I took role
+as developer, maintainer, packager, release manager, software architect,
+database architect and administrator, sometimes <em>devops</em>. In the same time
+frame I also have started several companies (they are still thriving) with a
+strong Open Source business model, and I have been in <em>manager</em> positions at
+times too, including at the Executive level in big companies.</p>
+
+                </div>
+                
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/dimface.320.png" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+    </div>
+    
+    
+    
+    
+
+
+
+</section>
 
 
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <ul class="list-inline">
                     <li>
                         <a class="page-scroll" href="#intro">Home</a>
@@ -423,18 +208,8 @@ there something more to it that comes with those ACID properties?</p>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    
                 </ul>
                 <p class="copyright text-muted small">Copyright &copy; Mastering PostgreSQL All Rights Reserved</p>
-            </div>
-            <div class="col-md-4">
-		Built with <a href="http://gohugo.io">Hugo</a> and the
-		<a href="https://github.com/crakjie/landing-page-hugo">landing-page-hugo</a>
-		theme.
             </div>
         </div>
     </div>

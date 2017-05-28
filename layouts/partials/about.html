@@ -2,7 +2,8 @@
 <section id="about" class="container content-section text-center">
 {{ range where .Data.Pages "Section" "about" | first 1 }}
 	<div class="row">
-		<div class="col-lg-6 col-lg-offset-3">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+		<!-- <div class="col-lg-8 col-lg-offset-2"> -->
 			<br/>
 			<br/>
 			<h2>{{ .Title }}</h2>
@@ -10,6 +11,12 @@
 			{{ .Content }}
 			<br/>
 		</div>
+                {{ with .Params.img }}
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <!-- <div class="col-lg-5 col-lg-offset-2 col-sm-6"> -->
+                    <img class="img-responsive" src="img/{{ . }}" alt="">
+                </div>
+                {{ end }}
 	</div>
 {{ end }}
 </section>
