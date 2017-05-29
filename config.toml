@@ -8,6 +8,7 @@ publishDir = "docs"
 [params]
 	description = ""
         custom_css = ["css/local.css"]
+        favicon = "/favicon.ico"
 
 # [[params.social]]
 # 	title = "Blog"
