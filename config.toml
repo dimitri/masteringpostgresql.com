@@ -5,6 +5,8 @@ title = "Mastering PostgreSQL"
 theme = "landing-page-hugo"
 publishDir = "docs"
 
+googleAnalytics = "UA-47059482-3"
+
 [params]
 	description = ""
         custom_css = ["css/local.css"]
