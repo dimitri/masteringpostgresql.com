@@ -1,6 +1,6 @@
 +++
 title = "Mastering PostgreSQL in Application Development"
-img = "book.jpg"
+img = "MasteringPostgreSQLinAppDev-Cover.png"
 draft = false
 weight = 1
 +++
