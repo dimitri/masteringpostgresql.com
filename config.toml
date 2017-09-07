@@ -3,7 +3,8 @@ relativeURLs = false
 languageCode = "en-us"
 title = "Mastering PostgreSQL"
 
-theme = "landing-page-hugo"
+#theme = "landing-page-hugo"
+theme = "universal"
 publishDir = "docs"
 
 googleAnalytics = "UA-47059482-3"
@@ -12,3 +13,60 @@ googleAnalytics = "UA-47059482-3"
         description = "Learn to use SQL to easily solve complex problems!"
         custom_css = ["css/local.css"]
         favicon = "/favicon.ico"
+        style = "blue"
+        date_format = "January 2, 2006"
+        copyright = "© 2017, Dimitri Fontaine"
+
+[params.topbar]
+        enable = false
+
+[params.carousel]
+        enable = true
+
+[params.author]
+        enable = true
+        title = "About the Author"
+        image = "/img/dim-rounded.png"
+        subtitle = """
+
+Hi! My name is [Dimitri Fontaine](http://tapoueh.org) and I have been using
+and contributing to Open Source Software for the best of the last twenty
+years. I am a [PostgreSQL Major
+Contributor](https://www.postgresql.org/community/contributors/) and author
+of the [pgloader](http://pgloader.io) data loading utility, with fully
+automated support for database migration from MySQL to PostgreSQL! Or from
+SQLite, or MS SQL, and more.
+<br>
+<br>
+I took role as developer, maintainer, packager, release manager,
+software architect, database architect and administrator, sometimes
+*devops*. In the same time frame, I also have started several companies
+(they are still thriving) with a strong Open Source business model, and I
+have been in *manager* positions at times too, including at the Executive
+level in big companies.
+<br>
+<br>
+I run a blog at [tapoueh.org](http://tapoueh.org) with in-depth articles
+showing advanced use cases for SQL in
+my [PostgreSQL is YeSQL](http://tapoueh.org/categories/yesql/) series, check
+it out!
+"""
+
+[params.features]
+    enable = true
+
+[params.testimonials]
+    enable = true
+    title = "Interviews"
+    subtitle = "<b><i>Mastering PostgreSQL in Application Development</i></b> includes interviews from developpers and SQL masters. PHP, Java, Python and Django get specific treatment in the book, which targets all application developers, whatever the language in use!"
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-book"
+    title = "Get the Book!"
+
+[params.clients]
+    enable = false
+
+[params.recent_posts]
+    enable = false

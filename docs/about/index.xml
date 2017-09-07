@@ -6,6 +6,7 @@
     <description>Recent content in Abouts on Mastering PostgreSQL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>© 2017, Dimitri Fontaine</copyright>
     
 	<atom:link href="http://masteringpostgresql.com/about/index.xml" rel="self" type="application/rss+xml" />
     

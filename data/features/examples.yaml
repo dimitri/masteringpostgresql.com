@@ -1,0 +1,4 @@
+weight: 2
+name: "Practical Exemples"
+icon: "fa fa-handshake-o"
+description: "Learn advanced SQL with practical examples and datasets that help you get the most of the book! Every query solves a practical use case and is given in context."

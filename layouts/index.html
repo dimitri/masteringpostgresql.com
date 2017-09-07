@@ -1,6 +1,36 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
-{{ partial "about.html" . }}
-{{ partial "contact.html" . }}
-{{ partial "services.html" . }}
-{{ partial "footer.html" . }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          <!-- {{ partial "nav.html" . }} -->
+
+        </header>
+
+        {{ partial "carousel.html" . }}
+
+        {{ partial "features.html" . }}
+
+        {{ partial "testimonials.html" . }}
+
+        {{ partial "see_more.html" . }}
+
+        {{ partial "author.html" . }}
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

@@ -1,0 +1,4 @@
+weight: 4
+name: "SQL For Developers"
+icon: "fa fa-lightbulb-o"
+description: "This book is for developers, covering advanced SQL techniques for data processing. Learn how to get exactly the result set you need in your application's code!"

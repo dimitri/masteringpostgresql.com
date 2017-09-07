@@ -1,0 +1,4 @@
+weight: 1
+name: "SQL is Code"
+icon: "fa fa-desktop"
+description: "Learn how to deal with SQL in your developer workflow: versioning, testing, code reviewing, deployment. Best practice and tools are covered."

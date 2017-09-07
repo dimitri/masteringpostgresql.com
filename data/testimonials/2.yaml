@@ -1,0 +1,8 @@
+text: "<b><i>Grégoire Hubert</i></b> has been a web developer for about as long as
+we have web applications, and his favorite web tooling is found in the PHP
+ecosystem. He wrote http://www.pomm-project.org to help integrate PostgreSQL
+and PHP better. POMM grants developers with unlimited access to SQL and
+database features while proposing a high level API over low level drivers."
+name: "Grégoire Hubert"
+position: "POMM Project"
+avatar: "img/pic-gregoire.png"

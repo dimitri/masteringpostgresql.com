@@ -1,0 +1,4 @@
+weight: 6
+name: "Batteries Included"
+icon: "fa fa-battery-full"
+description: "The book comes with open data sets and instructions to get them so that you can run all the SQL queries at home, edit them and learn from them. Advanced <tt>psql</tt> setup is even included!"

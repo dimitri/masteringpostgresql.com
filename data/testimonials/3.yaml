@@ -1,0 +1,8 @@
+text: "<b><i>Markus Winand</i></b> is the author of the very famous book “SQL Performance
+explained” and maintains both http://use-the-index-luke.com
+and http://modern-sql.com. Markus masters the SQL standard and is a wizard
+in how to use SQL to enable fast application delivery and solid run-time
+performances!"
+name: "Markus Winand"
+position: "Modern SQL"
+avatar: "img/markus.png"

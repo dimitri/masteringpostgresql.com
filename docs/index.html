@@ -1,32 +1,415 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta name="generator" content="Hugo 0.20.7" />
+<html lang="en-us">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <base href="http://masteringpostgresql.com/">
-    <title>Mastering PostgreSQL</title>
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mastering PostgreSQL</title>
+  <meta name="author" content="" />
+
+  
+
+  
+
+  <meta name="generator" content="Hugo 0.26" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link href="http://masteringpostgresql.com/css/animate.css" rel="stylesheet">
+
+  
+  
+    <link href="http://masteringpostgresql.com/css/style.blue.css" rel="stylesheet" id="theme-stylesheet">
+  
+
+
+  
+  <link href="http://masteringpostgresql.com/css/custom.css" rel="stylesheet">
+
+  
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+  <link rel="shortcut icon" href="http://masteringpostgresql.com/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="http://masteringpostgresql.com/img/apple-touch-icon.png" />
+  
+
+  <link href="http://masteringpostgresql.com/css/owl.carousel.css" rel="stylesheet">
+  <link href="http://masteringpostgresql.com/css/owl.theme.css" rel="stylesheet">
+
+  <link rel="alternate" href="http://masteringpostgresql.com/index.xml" type="application/rss+xml" title="Mastering PostgreSQL">
+
+  
+  <meta property="og:title" content="Mastering PostgreSQL" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="//" />
+  <meta property="og:image" content="" />
+
+</head>
+
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          
+
+
+          
+
+        </header>
+
+        
+
+
+<section>
+    <div class="home-carousel">
+        <div class="dark-mask"></div>
+        <div class="container">
+            <div class="homepage owl-carousel">
+                
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-5 right">
+                            <h1>Mastering PostgreSQL in Application Development</h1>
+                            <p>Learn SQL and replace thousands of lines of code with simple queries!</p>
+                        </div>
+                        <div class="col-sm-7">
+                            <img class="img-responsive" src="img/MasteringPostgreSQLinAppDev-Cover.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+        
+
+
+<section class="bar background-white">
+    <div class="container">
+        
+		
+		<div class="col-md-12">
+            <div class="row">
+		
+				<div class="col-md-4">
+                    <div class="box-simple">
+                        <div class="icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <h3>SQL is Code</h3>
+                        <p>Learn how to deal with SQL in your developer workflow: versioning, testing, code reviewing, deployment. Best practice and tools are covered.</p>
+                    </div>
+                </div>
+		
+        
+		
+				<div class="col-md-4">
+                    <div class="box-simple">
+                        <div class="icon">
+                            <i class="fa fa-handshake-o"></i>
+                        </div>
+                        <h3>Practical Exemples</h3>
+                        <p>Learn advanced SQL with practical examples and datasets that help you get the most of the book! Every query solves a practical use case and is given in context.</p>
+                    </div>
+                </div>
+		
+        
+		
+				<div class="col-md-4">
+                    <div class="box-simple">
+                        <div class="icon">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <h3>Database Modeling</h3>
+                        <p>The book covers (de-)normalisation with simple practical examples to dive into this seemingly complex topic, including Caching and Indexing Strategy.</p>
+                    </div>
+                </div>
+		
+			</div>
+		</div>
+		
+        
+		
+		<div class="col-md-12">
+            <div class="row">
+		
+				<div class="col-md-4">
+                    <div class="box-simple">
+                        <div class="icon">
+                            <i class="fa fa-lightbulb-o"></i>
+                        </div>
+                        <h3>SQL For Developers</h3>
+                        <p>This book is for developers, covering advanced SQL techniques for data processing. Learn how to get exactly the result set you need in your application&rsquo;s code!</p>
+                    </div>
+                </div>
+		
+        
+		
+				<div class="col-md-4">
+                    <div class="box-simple">
+                        <div class="icon">
+                            <i class="fa fa-rocket"></i>
+                        </div>
+                        <h3>Write Efficient SQL</h3>
+                        <p>Writing efficient SQL is easier than it looks, and begins with database modeling and writing clear code. The book teaches you how to write fast queries!</p>
+                    </div>
+                </div>
+		
+        
+		
+				<div class="col-md-4">
+                    <div class="box-simple">
+                        <div class="icon">
+                            <i class="fa fa-battery-full"></i>
+                        </div>
+                        <h3>Batteries Included</h3>
+                        <p>The book comes with open data sets and instructions to get them so that you can run all the SQL queries at home, edit them and learn from them. Advanced <tt>psql</tt> setup is even included!</p>
+                    </div>
+                </div>
+		
+			</div>
+		</div>
+		
+        
+    </div>
+</section>
+
+
+
+
+
+        
+
+
+<section class="bar background-pentagon no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>Interviews</h2>
+                </div>
+
+                <p class="lead">
+                  <b><i>Mastering PostgreSQL in Application Development</i></b> includes interviews from developpers and SQL masters. PHP, Java, Python and Django get specific treatment in the book, which targets all application developers, whatever the language in use!
+                </p>
+
+                
+
+                <ul class="owl-carousel testimonials same-height-row">
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p><b><i>Yohann Gabory</i></b>, python django&rsquo;s expert, has published an “Advanced Django” book in France to share his deep knowledge of the publication system with Python developers. The book really is a reference on how to use django to build powerful applications.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="http://masteringpostgresql.com/img/yohann.jpg">
+                                    <h5>Yohann Gabory</h5>
+                                    <p>Django Avancé</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p><b><i>Grégoire Hubert</i></b> has been a web developer for about as long as we have web applications, and his favorite web tooling is found in the PHP ecosystem. He wrote <a href="http://www.pomm-project.org">http://www.pomm-project.org</a> to help integrate PostgreSQL and PHP better. POMM grants developers with unlimited access to SQL and database features while proposing a high level API over low level drivers.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="http://masteringpostgresql.com/img/pic-gregoire.png">
+                                    <h5>Grégoire Hubert</h5>
+                                    <p>POMM Project</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p><b><i>Markus Winand</i></b> is the author of the very famous book “SQL Performance explained” and maintains both <a href="http://use-the-index-luke.com">http://use-the-index-luke.com</a> and <a href="http://modern-sql.com">http://modern-sql.com</a>. Markus masters the SQL standard and is a wizard in how to use SQL to enable fast application delivery and solid run-time performances!</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="http://masteringpostgresql.com/img/markus.png">
+                                    <h5>Markus Winand</h5>
+                                    <p>Modern SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>IT entrepreneur, founder of two software development companies (8Kdata, Wizzbill). Software architect and developer. Open source consultant and supporter. <b><i>Ávaro Hernández Tortosa</i></b> leads the <a href="https://www.torodb.com">https://www.torodb.com</a> project, a MongoDB replica solution based on PostgreSQL!</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="icon"><i class="fa fa-quote-left"></i>
+                                </div>
+                                <div class="name-picture">
+                                    <img class="" alt="" src="http://masteringpostgresql.com/img/AlvaroHernandez.png">
+                                    <h5>Álvaro</h5>
+                                    <p>ToroDB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+                
+
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+        
+
+<section class="bar background-image-fixed-2 no-mb text-center">
+    <div class="dark-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                
+                
+                
+                <p class="text-center">
+                  <script async id="_ck_216263" src="https://forms.convertkit.com/216263?v=6"></script>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+        
+
+<section class="bar background-white no-mb">
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="heading text-center">
+                <h2>About the Author</h2>
+            </div>
+        </div>
+
+        <div class="col-lg-5 col-sm-6">
+          <img class="img-responsive" src="/img/dim-rounded.png">
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <p class="lead" style="text-align: justify;">
+              Hi! My name is <a href="http://tapoueh.org">Dimitri Fontaine</a> and I have been using
+and contributing to Open Source Software for the best of the last twenty
+years. I am a <a href="https://www.postgresql.org/community/contributors/">PostgreSQL Major
+Contributor</a> and author
+of the <a href="http://pgloader.io">pgloader</a> data loading utility, with fully
+automated support for database migration from MySQL to PostgreSQL! Or from
+SQLite, or MS SQL, and more.
+<br>
+<br>
+I took role as developer, maintainer, packager, release manager,
+software architect, database architect and administrator, sometimes
+<em>devops</em>. In the same time frame, I also have started several companies
+(they are still thriving) with a strong Open Source business model, and I
+have been in <em>manager</em> positions at times too, including at the Executive
+level in big companies.
+<br>
+<br>
+I run a blog at <a href="http://tapoueh.org">tapoueh.org</a> with in-depth articles
+showing advanced use cases for SQL in
+my <a href="http://tapoueh.org/categories/yesql/">PostgreSQL is YeSQL</a> series, check
+it out!
+            </p>
+
+        </div>
+    </div>
+    
+</section>
+
+
+
+
+
+        <footer id="footer">
+    <div class="container">
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">© 2017, Dimitri Fontaine</p>
+            
+            <p class="pull-right">
+              Template by <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
 
     
-    <link rel="icon" href="/favicon.ico">
-
-    
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-
-    
-    <link href="/css/landing-page.css" rel="stylesheet">
-    
-    
-    
-        <link rel="stylesheet" href="http://masteringpostgresql.com/css/local.css">
-    
-
-    
-      
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -37,188 +420,23 @@ ga('create', 'UA-47059482-3', 'auto');
 ga('send', 'pageview');
 </script>
 
-    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    
-    <link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
 
-    
-    
-    
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
-</head>
-<body>
-
-<section id="intro">
-	
-	<div class="intro-header">
-
-	    <div class="container">
-
-		<div class="row">
-		    <div class="col-lg-12">
-			<div class="intro-message">
-			    <h1>Mastering PostgreSQL</h1>
-			    <hr class="intro-divider">
-			    <h3>Learn to use SQL to easily solve complex problems!</h3>
-		    </div>
-		</div>
-
-	    </div>
-	    
-
-	</div>
-	
-</section>
+<script src="http://masteringpostgresql.com/js/hpneo.gmaps.js"></script>
+<script src="http://masteringpostgresql.com/js/gmaps.init.js"></script>
+<script src="http://masteringpostgresql.com/js/front.js"></script>
 
 
-<section id="about" class="container content-section text-center">
-
-	<div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-		
-			<br/>
-			<br/>
-			<h2>Mastering PostgreSQL in Application Development</h2>
-			<br/>
-			<p>I am writing a book to share my knowledge about how to best use PostgreSQL
-as an application developer. If you&rsquo;ve ever asked yourself <em>how much should
-I have my database do for me?</em> this book is for you. If you&rsquo;re thinking that
-using an ORM might not always be the best option out there, if sometimes you
-wish SQL was easier to maintain than those concatenated strings with
-conditionals, then this book can&rsquo;t wait for you!</p>
-
-<p><em>Mastering PostgreSQL in Application Development</em> is answering practical
-questions every developer is confronted to when using PostgreSQL. For
-instance, should PostgreSQL be a convenient remote storage facility, or is
-there something more to it that comes with those ACID properties?</p>
-
-			<br/>
-		</div>
-                
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                
-                    <img class="img-responsive" src="img/MasteringPostgreSQLinAppDev-Cover.png" alt="">
-                </div>
-                
-	</div>
-
-</section>
-
-<section id="contact">
-<div class="contact">
-	<div class="container">
-		<div class="row">
-			
-			
-			
-
-                        <div class="col-lg-12" style="text-align: center;">
-		          <ul class="list-inline contact-social-buttons">
-		            
-
-		          </ul>
-		        </div>
-                </div>
-		<div class="row">
-		  <div class="col-lg-8 col-lg-offset-2">
-                    <script async id="_ck_216263" src="https://forms.convertkit.com/216263?v=6"></script>
-                  </div>
-		</div>
-
-		</div>
-	</div>
-</div>
-</section>
-
-<section id="services">
+<script src="http://masteringpostgresql.com/js/owl.carousel.min.js"></script>
 
 
- 
-    
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">About the Author</h2>
-                    <p>Hi! My name is <a href="http://tapoueh.org">Dimitri Fontaine</a> and I have been using
-and contributing to Open Source Software for the best of the last twenty
-years. I took role as developer, maintainer, packager, release manager,
-software architect, database architect and administrator, sometimes
-<em>devops</em>. In the same time frame, I also have started several companies
-(they are still thriving) with a strong Open Source business model, and I
-have been in <em>manager</em> positions at times too, including at the Executive
-level in big companies.</p>
-
-<p>I run a blog at <a href="http://tapoueh.org">tapoueh.org</a> with in-depth articles
-showing advanced use cases for SQL in
-my <a href="http://tapoueh.org/categories/yesql/">PostgreSQL is YeSQL</a> series, check
-it out!</p>
-
-                </div>
-                
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/dimface.320.png" alt="">
-                </div>
-                
-            </div>
-
-        </div>
-        
-
-    </div>
-    
-    
-    
-    
-
-
-
-</section>
-
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="list-inline">
-                    <li>
-                        <a class="page-scroll" href="#intro">Home</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    
-                </ul>
-                <p class="copyright text-muted small">Copyright &copy; Mastering PostgreSQL All Rights Reserved</p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script src="/js/jquery-1.11.0.js"></script>
-
-
-<script src="/js/jquery.easing.min.js"></script>
-
-
-<script src="/js/bootstrap.min.js"></script>
-
-
-<script src="js/landing-page.js"></script>
-
-
-
-</body>
+  </body>
 </html>
-

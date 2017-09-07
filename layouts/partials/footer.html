@@ -1,32 +1,32 @@
-<!-- Footer -->
-<footer>
+<footer id="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="list-inline">
-                    <li>
-                        <a class="page-scroll" href="#intro">Home</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    {{ if isset .Site.Params "social" }}
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    {{ end }}
-                </ul>
-                <p class="copyright text-muted small">Copyright &copy; {{ .Title }} All Rights Reserved</p>
-            </div>
+
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            {{ if isset .Site.Params "copyright" }}
+            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ end }}
+            <p class="pull-right">
+              {{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
+
+              {{ i18n "portedBy" }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
+            </p>
         </div>
     </div>
-</footer>
-{{ partial "js.html" . }}
-</body>
-</html>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->

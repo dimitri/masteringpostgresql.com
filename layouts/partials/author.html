@@ -1,0 +1,26 @@
+{{ if isset .Site.Params "author" }}
+{{ if .Site.Params.author.enable }}
+<section class="bar background-white no-mb">
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="heading text-center">
+                <h2>{{ .Site.Params.author.title }}</h2>
+            </div>
+        </div>
+
+        <div class="col-lg-5 col-sm-6">
+          <img class="img-responsive" src="{{ .Site.Params.author.image }}">
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <p class="lead" style="text-align: justify;">
+              {{ .Site.Params.author.subtitle | markdownify }}
+            </p>
+
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}

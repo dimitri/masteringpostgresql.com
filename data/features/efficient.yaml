@@ -1,0 +1,4 @@
+weight: 5
+name: "Write Efficient SQL"
+icon: "fa fa-rocket"
+description: "Writing efficient SQL is easier than it looks, and begins with database modeling and writing clear code. The book teaches you how to write fast queries!"

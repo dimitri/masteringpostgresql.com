@@ -1,0 +1,4 @@
+weight: 3
+name: "Database Modeling"
+icon: "fa fa-globe"
+description: "The book covers (de-)normalisation with simple practical examples to dive into this seemingly complex topic, including Caching and Indexing Strategy."

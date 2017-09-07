@@ -12,3 +12,9 @@ p {
 .container img {
     margin-top: 3em;
 }
+
+.bar.background-image-fixed-2 {
+  background: url('../img/intro-bg.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
