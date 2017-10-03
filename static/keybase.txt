@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/dimitri
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://masteringpostgresql.com
+  * I am dimitri (https://keybase.io/dimitri) on keybase.
+  * I have a public key ASBOgX3LJdoN1idltdYFQiUwXsDyLgAlmB7eZPKlXVBVzQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c50ec56cd7ff26b41d283fb6c3657b25a9f3124ca87ff252eb4c035b8257ccf40a",
+      "host": "keybase.io",
+      "kid": "01204e817dcb25da0dd62765b5d6054225305ec0f22e0025981ede64f2a55d5055cd0a",
+      "uid": "390b3a3fad81f3fd7dec50b1df58b600",
+      "username": "dimitri"
+    },
+    "merkle_root": {
+      "ctime": 1506989196,
+      "hash": "b07ec9f3df76a4eea2bac87cd3a8278edb449a58f6f8a9981d7d7fed922da2ec99fd99f213a2e4da778cd0273575bf2b02f7b878dc42cc081c9eaf741b752594",
+      "hash_meta": "ed28799a8a0206438a86b52c620396fb4b57c1a5967c044bfdcdd3668960baf6",
+      "seqno": 1486551
+    },
+    "service": {
+      "hostname": "masteringpostgresql.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.32"
+  },
+  "ctime": 1506989220,
+  "expire_in": 504576000,
+  "prev": "3a5d28daf89d291a167de799cdb567af4729e22f8f132be508058c27b727e28d",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgToF9yyXaDdYnZbXWBUIlMF7A8i4AJZge3mTypV1QVc0Kp3BheWxvYWTFA057ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYzUwZWM1NmNkN2ZmMjZiNDFkMjgzZmI2YzM2NTdiMjVhOWYzMTI0Y2E4N2ZmMjUyZWI0YzAzNWI4MjU3Y2NmNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGU4MTdkY2IyNWRhMGRkNjI3NjViNWQ2MDU0MjI1MzA1ZWMwZjIyZTAwMjU5ODFlZGU2NGYyYTU1ZDUwNTVjZDBhIiwidWlkIjoiMzkwYjNhM2ZhZDgxZjNmZDdkZWM1MGIxZGY1OGI2MDAiLCJ1c2VybmFtZSI6ImRpbWl0cmkifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDY5ODkxOTYsImhhc2giOiJiMDdlYzlmM2RmNzZhNGVlYTJiYWM4N2NkM2E4Mjc4ZWRiNDQ5YTU4ZjZmOGE5OTgxZDdkN2ZlZDkyMmRhMmVjOTlmZDk5ZjIxM2EyZTRkYTc3OGNkMDI3MzU3NWJmMmIwMmY3Yjg3OGRjNDJjYzA4MWM5ZWFmNzQxYjc1MjU5NCIsImhhc2hfbWV0YSI6ImVkMjg3OTlhOGEwMjA2NDM4YTg2YjUyYzYyMDM5NmZiNGI1N2MxYTU5NjdjMDQ0YmZkY2RkMzY2ODk2MGJhZjYiLCJzZXFubyI6MTQ4NjU1MX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJtYXN0ZXJpbmdwb3N0Z3Jlc3FsLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzIifSwiY3RpbWUiOjE1MDY5ODkyMjAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiM2E1ZDI4ZGFmODlkMjkxYTE2N2RlNzk5Y2RiNTY3YWY0NzI5ZTIyZjhmMTMyYmU1MDgwNThjMjdiNzI3ZTI4ZCIsInNlcW5vIjoxNywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDAi0k9L3mn+TfAovumgZiknex5KtPbSZHz6+LRs8646alUnrgYPn8ALxXFR/j7FXt1Luv0sydm2CcLaZaewRsIqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgWB5xi5dapB4oRCPZSbF8hMCPZe8PtxUxxYaMosCQXHajdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dimitri
+
+==================================================================
