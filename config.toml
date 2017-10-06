@@ -10,7 +10,7 @@ publishDir = "docs"
 googleAnalytics = "UA-47059482-3"
 
 [params]
-        description = "Learn to use SQL to easily solve complex problems!"
+        description = "The Book that teaches developers to use SQL to easily solve complex problems!"
         custom_css = ["css/local.css"]
         favicon = "/favicon.ico"
         style = "blue"
@@ -22,6 +22,16 @@ googleAnalytics = "UA-47059482-3"
 
 [params.carousel]
         enable = true
+
+[params.packages]
+        enable = true
+        title = "The Packages"
+        subtitle = """
+Mastering PostgreSQL in Application Developement comes in a choice of 4
+packages. From the classic and to the point package ***The Book*** to the
+***Enterprise Edtion***, your needs are covered. Our best sell is the ***Full
+Edition***, be sure to check it out!
+"""
 
 [params.author]
         enable = true
@@ -65,8 +75,34 @@ it out!
     icon = "fa fa-book"
     title = "Get the Book!"
 
-[params.clients]
-    enable = false
+[params.facts]
+    enable = true
+    title = "What's in the Book?"
 
 [params.recent_posts]
     enable = false
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Tapoueh.org"
+    url  = "http://tapoueh.org/"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
+# [[menu.main]]
+#     name = "Services"
+#     url  = "/services/"
+#     weight = 4

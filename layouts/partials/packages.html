@@ -1,0 +1,46 @@
+{{ if isset .Site.Params "packages" }}
+{{ if .Site.Params.packages.enable }}
+<section class="bar no-mb background-white text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading text-center">
+            <h2>{{ .Site.Params.packages.title }}</h2>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <p class="lead" style="text-align: justify;">
+            {{ .Site.Params.packages.subtitle | markdownify }}
+          </p>
+        </div>
+      
+        {{ range .Site.Data.packages }}
+        <div>
+          <div class="col-md-2 package">
+            {{ if .color }}
+            <i class="{{ .icon }}" style="color: {{ .color }}"></i>
+            {{ else }}
+            <i class="{{ .icon }}"></i>
+            {{ end }}
+          </div>
+          <div class="col-md-4 package">
+            {{ if .color }}
+            <h2 style="text-align: left; color: {{ .color }}">{{ .name }}</h3>
+            {{ else }}
+            <h2 style="text-align: left;">{{ .name }}</h3>
+            {{ end }}
+          </div>
+          <div class="col-md-6 package">
+            <p class="lead" {{if .color }}style="color: {{ .color }}"{{ end }}>
+              {{ .desc | markdownify }}
+            </p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}

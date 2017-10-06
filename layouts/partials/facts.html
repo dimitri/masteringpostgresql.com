@@ -1,0 +1,31 @@
+{{ if isset .Site.Params "facts" }}
+{{ if .Site.Params.facts.enable }}
+{{ if gt (len .Site.Data.facts) 0 }}
+<section class="bar background-pentagon no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.facts.title }}</h2>
+                </div>
+
+                <ul class="owl-carousel testimonials facts same-height-row">
+                    {{ range .Site.Data.facts }}
+                    <li class="item">
+                      <div class="fact same-height-always">
+                        <p style="text-align: center;">
+                          <icon class="{{ .icon }}"></icon>
+                        </p>
+                        <p class="count">{{ .count }}</p>
+                        <p class="name">{{ .name }}</p>
+                      </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

@@ -9,14 +9,27 @@ p {
     margin-right: 3em;
 }
 
-.container img {
-    margin-top: 3em;
+.bar container {
+    background: #467fbf;
+}
+
+section.bar.no-mb.background-image-fixed-2.color-white p a {
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .bar.background-image-fixed-2 {
-  background: url('../img/intro-bg.jpg') center top no-repeat;
+  /* background: url('../img/intro-bg.jpg') center top no-repeat; */
+    background:
+    linear-gradient(
+        rgba(70, 127, 191, 0.85),
+        rgba(70, 127, 191, 0.85)
+    ),
+    url('../img/library-wallpaper.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  filter: alpha(opacity=70);
 }
 
 .home-carousel {
@@ -37,4 +50,67 @@ p {
   background: #467fbf;
   opacity: 0.85;
   filter: alpha(opacity=85);
+}
+
+/*
+ * Copy Testimonials Carousel and adapt to Facts.
+ */
+.facts {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.facts .item {
+  list-style-type: none;
+  margin: 0 5px;
+  padding-bottom: 0px;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.facts .item .fact {
+  position: relative;
+  padding: 20px;
+  height: 50px;
+}
+
+.fact p.count {
+    font-size: 250%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.fact p.name {
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+
+/*
+ * Packages
+ */
+i.package {
+    color: yellow;
+}
+h3.package {
+    text-align: left;
+    font-style: italic;
+    color: grey;
+}
+p.package {
+    text-align: justify;
+    color: blue;
+}
+
+/*
+ * FAQ Book Image
+ */
+figure.left {
+    float: left;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+figure.right {
+    float: right;
 }

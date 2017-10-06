@@ -30,5 +30,25 @@
       <description>I am writing a book to share my knowledge about how to best use PostgreSQL as an application developer. If you&amp;rsquo;ve ever asked yourself how much should I have my database do for me? this book is for you. If you&amp;rsquo;re thinking that using an ORM might not always be the best option out there, if sometimes you wish SQL was easier to maintain than those concatenated strings with conditionals, then this book can&amp;rsquo;t wait for you!</description>
     </item>
     
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>http://masteringpostgresql.com/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://masteringpostgresql.com/faq/</guid>
+      <description>All you wanted to know about Mastering PostgreSQL in Application Developement, the book you need to read as a developer to level-up your SQL game!
+ The book isn&amp;rsquo;t what I expected it would be, at all. Mastering PostgreSQL in Application Development is a book that teaches SQL to application developers. If it&amp;rsquo;s not of any value to you, then just say so and I&amp;rsquo;ll refund you, no question asked.</description>
+    </item>
+    
+    <item>
+      <title>Mastering PostgreSQL Services</title>
+      <link>http://masteringpostgresql.com/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://masteringpostgresql.com/services/</guid>
+      <description>Coming Soon! SQL Training. SQL Coaching. SQL Consulting. PostgreSQL!
+It&amp;rsquo;s coming soon. Any question? Email Us.</description>
+    </item>
+    
   </channel>
 </rss>
