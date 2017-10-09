@@ -87,7 +87,7 @@ it out!
 # Main menu
 
 [[menu.main]]
-    name = "Home"
+    name = "The Book"
     url  = "/"
     weight = 1
 
