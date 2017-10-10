@@ -1,0 +1,35 @@
+id: "full"
+weight: 2
+name: "The Full Edition"
+icon: "fa-database"
+desc: "The Full Edition comes with the book and an archive with a PostgreSQL dump file ready to be restored in your own instance, plus all the 265 queries as separate files for you to run and edit!"
+background: "background-full-package"
+gumroad:
+  - url: "https://gum.co/MasteringPostgreSQLinApplicationDevelopmentFullEdition?wanted=true"
+    price: "$89"
+    text: "Buy it"
+items:
+  - icon: "fa-book"
+    name: "The Book"
+    desc: "The Book is 328 pages of SQL queries. 265 of them actually, all answering a very clear use-case, that is given in plain English. Every query is explained in details."
+
+  - icon: "fa-microphone"
+    name: "5 Interviews"
+    desc: "Interviews from industry veterans who began building web application in the previous century. They've been there and have opinions to share about how to approach SQL."
+    
+  - icon: "fa-tablet"
+    name: "PDF, ePub, MOBI"
+    desc: "The whole electronic reading kit for all your devices: tablet, phone and desktop computer are covered. The PDF is carefully edited to target modern display formats."
+
+  - icon: "fa-database"
+    name: "Real World Dataset"
+    desc: "The 12 datasets from the book with 56 tables, available as a PostgreSQL dump file. The *restore* script is integrated so that you can easily load that dump into your own PostgreSQL instance."
+    
+  - icon: "fa-cubes"
+    name: "Normalization examples"
+    desc: "We also cover how to design a database model and why as a developer you should care about normalizing it. With practical examples and normalization scripts."
+
+  - icon: "fa-code"
+    name: "And the code too!"
+    desc: "The Full Edition's archive file also includes the queries as 265 `.sql` files properly organized, with a table-of-contents index to find them easily."
+  

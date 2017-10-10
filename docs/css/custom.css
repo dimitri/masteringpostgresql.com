@@ -19,6 +19,14 @@ section.bar.no-mb.background-image-fixed-2.color-white p a {
     font-style: italic;
 }
 
+.package {
+    border-top: solid 1px #999999;    
+}
+
+section.bar.no-mb.background-dark-wall {
+    background: url('../img/001-subtle-light-pattern-background-texture.jpg') center center repeat;
+}
+
 .bar.background-image-fixed-2 {
   /* background: url('../img/intro-bg.jpg') center top no-repeat; */
     background:
@@ -30,6 +38,31 @@ section.bar.no-mb.background-image-fixed-2.color-white p a {
   background-attachment: fixed;
   background-size: cover;
   filter: alpha(opacity=70);
+}
+
+.background-enterprise-package {
+  background: url('../img/Enterprise-Package.png') 50px top no-repeat;
+}
+
+.background-full-package {
+  background: url('../img/Full-Package.png') 50px top no-repeat;
+}
+
+.background-full-package::before {
+    content: url('../img/best-seller-320.png');
+}
+
+.background-dead-tree-package {
+  /* background: url('../img/BookOpen.jpeg') 50px top no-repeat; */
+    background: url('../img/generic-book-logo.png') center top no-repeat;
+}
+
+.background-dead-tree-package::before {
+    content: url('../img/Red-Coming-Soon-Stamp.png');
+}
+
+#dead-tree {
+    background: url('../img/grey-repeating-background-5.jpg') center center repeat;
 }
 
 .home-carousel {
@@ -101,6 +134,32 @@ h3.package {
 p.package {
     text-align: justify;
     color: blue;
+}
+.gumroad a {
+    border-radius: 50%;
+    background-color: #467fbf;
+    padding: 35px;
+    text-align: center;
+    text-weigth: bold;
+    font-size: 175%;
+}
+.gumroad .price {
+    font-family: cursive;
+    font-variant: small-caps;
+    font-variant-numeric: oldstyle-nums;
+}
+
+.lulu {
+    border: 10px solid #467fbf;
+    border-radius: 50%;
+    padding: 10px;
+    color: #467fbf;
+    text-align: center;
+    text-weigth: bold;
+    font-size: 275%;
+    font-family: cursive;
+    font-variant: small-caps;
+    font-variant-numeric: oldstyle-nums;
 }
 
 /*

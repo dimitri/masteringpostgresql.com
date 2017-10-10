@@ -39,27 +39,16 @@ Edition***, be sure to check it out!
         image = "/img/dim-rounded.png"
         subtitle = """
 
-Hi! My name is [Dimitri Fontaine](http://tapoueh.org) and I have been using
-and contributing to Open Source Software for the best of the last twenty
-years. I am a [PostgreSQL Major
-Contributor](https://www.postgresql.org/community/contributors/) and author
-of the [pgloader](http://pgloader.io) data loading utility, with fully
-automated support for database migration from MySQL to PostgreSQL! Or from
-SQLite, or MS SQL, and more.
+Hi! My name is **Dimitri Fontaine** and I have been using and contributing
+to Open Source Software for the best of the last 20 years. I am a
+**PostgreSQL Major Contributor** after having contributed *Extensions* and
+*Event Triggers*, among other things.
 <br>
 <br>
-I took role as developer, maintainer, packager, release manager,
-software architect, database architect and administrator, sometimes
-*devops*. In the same time frame, I also have started several companies
-(they are still thriving) with a strong Open Source business model, and I
-have been in *manager* positions at times too, including at the Executive
-level in big companies.
-<br>
-<br>
-I run a blog at [tapoueh.org](http://tapoueh.org) with in-depth articles
-showing advanced use cases for SQL in
-my [PostgreSQL is YeSQL](http://tapoueh.org/categories/yesql/) series, check
-it out!
+I have been writing code almost daily for a very long time now, both in a
+professional capacity and on my leisure time. I've also been a database
+architect and a DBA on-call. As a developer I enjoy using SQL. As a database
+architect, I like teaching advanced SQL techniques to my colleagues.
 """
 
 [params.features]

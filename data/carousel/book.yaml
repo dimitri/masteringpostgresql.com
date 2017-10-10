@@ -1,4 +1,10 @@
 weight: 1
 title: "Mastering PostgreSQL in Application Development"
-description: "<p><i class=\"fa fa-book fa-4x\" style=\"color: white; line-height: 1em; float: left; padding-right: 8px;\"></i>The Book that teaches SQL to developers: replace thousands of lines of code with simple queries!</p>"
+description: "<p>
+<i class=\"fa fa-book fa-4x\" style=\"color: white; line-height: 1em; float: left; padding-right: 8px;\"></i>
+The Book that teaches SQL to developers: learn to replace thousands of lines of code with simple queries!</p>
+
+<a href=\"#packages\" class=\"btn-template-primary btn-lg badge\">
+<span style=\"font-size:150%;\">Buy the Book</span></a>
+"
 image: "img/MasteringPostgreSQLinAppDev-Cover.png"

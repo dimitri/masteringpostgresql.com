@@ -1,0 +1,22 @@
+id: "dead-tree"
+weight: 3
+name: "The Dead Tree Edition"
+icon: "fa-pagelines"
+desc: "A professionnally printed paperback of 331 pages, with the same content. You still can have the PDF, ePub and MOBI, we know copy/paste is easier on those!"
+background: "background-dead-tree-package"
+# lulu:
+#   - id: "21565230"
+#     price: "$49"
+items:
+  - icon: "fa-book"
+    name: "The Book"
+    desc: "The Book is 326 pages of SQL queries. 265 of them actually, all answering a very clear use-case, that is given in plain English. Every query is explained in details."
+
+  - icon: "fa-microphone"
+    name: "5 Interviews"
+    desc: "Interviews from industry veterans who began building web application in the previous century. They've been there and have opinions to share about how to approach SQL."
+    
+  - icon: "fa-tablet"
+    name: "PDF, ePub, MOBI"
+    desc: "The whole electronic reading kit for all your devices: tablet, phone and desktop computer are covered. The PDF is carefully edited to target modern display formats."
+  

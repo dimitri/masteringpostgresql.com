@@ -1,0 +1,17 @@
+id: "book"
+weight: 4
+name: "The Book"
+icon: "fa-tablet"
+gumroad:
+  - url: "https://gum.co/MasteringPostgreSQLinApplicationDevelopment?wanted=true"
+    price: "$39"
+    text: "Buy it"
+desc: "The real deal, 328 pages of advanced SQL teaching, just for you.
+You get the PDF version, the ePub version, and the MOBI version too.
+<br/>
+<br/>
+You get all the content, with instructions to download and process the Open
+Data referenced in the book, so that if you change your mind and want to run
+those queries, you still are in a position to! Or you can always buy an
+upgrade, but you'd rather get the Full Edition right away."
+img: "img/MasteringPostgreSQLinAppDev-Cover.png"

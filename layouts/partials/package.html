@@ -1,0 +1,73 @@
+<section class="bar no-mb background-white text-center package" id="{{ .id }}">
+    <div class="container">
+      <div class="row">
+        {{ with .img }}
+        <div class="col-md-3">
+          <img src="{{ . }}" width="200px">
+        </div>
+        {{ end }}
+        <div class={{ if isset . "img" }}"col-md-6"{{ else }}"col-md-9"{{ end }}>
+          <h2 style="text-align: left">
+            <i class="fa {{ .icon }} fa-1x" ></i> {{ .name }}
+          </h2>
+          <p class="lead" style="text-align: justify;">
+            {{ .desc | markdownify }}
+          </p>          
+        </div>
+
+        {{ with .gumroad }}
+        {{ range first 1 . }}
+        <div class="gumroad col-md-3">
+          <a href="{{ .url }}"
+             target="_blank"
+             data-gumroad-single-product="true"
+             class="btn-template-primary btn-lg badge">
+            <span class="price">{{ .price }}</span>
+            <br/>
+            {{ .text | markdownify }}
+          </a>
+          <!-- <a class="gumroad-button" -->
+          <!--    href="{{ .url }}" -->
+          <!--    target="_blank" data-gumroad-single-product="true"> -->
+          <!--   {{ .text }} -->
+          <!-- </a> -->
+        </div>
+        {{ end }}
+        {{ end }}
+
+        {{ with .lulu }}
+        {{ range first 1 . }}
+        <div class="lulu col-md-3">
+          {{ .price }}
+          <br/>
+          <a href="http://www.lulu.com/commerce/index.php?fBuyContent={{ .id }}"><img src="http://static.lulu.com/images/services/buy_now_buttons/fr/book_blue.gif?20170823162358" border="0" alt="Support independent publishing: Buy this book on Lulu."></a>
+        </div>
+        {{ end }}
+        {{ end }}
+
+        {{ with .background }}
+        <div class="col-md-12 {{ . }}" style="height: 600px;"> </div>
+        {{ end }}
+      </div>
+    </div>
+</section>
+
+{{ if isset . "items" }}
+<section class="bar no-mb background-dark-wall">
+<!-- <section class="bar no-mb background-image-fixed-2 color-white"> -->
+    <div class="container">
+      <div class="row">
+        {{ range .items }}
+        <div class="col-md-4">
+          <h3 class="text-center"><i class="fa {{ .icon }} fa-3x"></i></h3>
+          <h3 class="text-center">{{ .name }}</h3>
+          <div style="text-align: left;">
+            <p>{{ .desc | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <!-- /.container -->
+</section>
+{{ end }}
