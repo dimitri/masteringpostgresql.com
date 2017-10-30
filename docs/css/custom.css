@@ -13,6 +13,10 @@ p {
     background: #467fbf;
 }
 
+.buy {
+    background: #11436C;
+}
+
 section.bar.no-mb.background-image-fixed-2.color-white p a {
     color: white;
     text-decoration: underline;
