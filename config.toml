@@ -57,7 +57,7 @@ architect, I like teaching advanced SQL techniques to my colleagues.
 [params.testimonials]
     enable = true
     title = "Interviews"
-    subtitle = "<b><i>Mastering PostgreSQL in Application Development</i></b> includes interviews from developpers and SQL masters. PHP, Java, Python and Django get specific treatment in the book, which targets all application developers, whatever the language in use!"
+    subtitle = "<b><i>Mastering PostgreSQL in Application Development</i></b> includes interviews from developers and SQL masters. PHP, Java, Python and Django get specific treatment in the book, which targets all application developers, whatever the language in use!"
 
 [params.see_more]
     enable = true
