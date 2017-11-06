@@ -2,7 +2,7 @@ id: "dead-tree"
 weight: 3
 name: "The Dead Tree Edition"
 icon: "fa-pagelines"
-desc: "A professionnally printed paperback of 332 pages, with the same content. You still can have the PDF, ePub and MOBI, we know copy/paste is easier on those!"
+desc: "A professionally printed paperback of 332 pages, with the same content. You still can have the PDF, ePub and MOBI, we know copy/paste is easier on those!"
 background: "background-dead-tree-package"
 lulu:
   - id: "21565230"
