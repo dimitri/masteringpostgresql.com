@@ -31,6 +31,8 @@ electronic package automatically. Forward me your *Lulu receipt* and I will
 happily send you the electronic package. This includes the PDF, ePub and
 MOBI versions of the book.
 
+My e-mail address is `dim` at `tapoueh.org`.
+
 ## Any other question?
 
 Contact me by email and just ask! I will do my best to answer you.
