@@ -2,7 +2,7 @@ id: "full"
 weight: 2
 name: "The Full Edition"
 icon: "fa-database"
-desc: "The Full Edition comes with the book and an archive with a PostgreSQL dump file ready to be restored in your own instance, plus all the 265 queries as separate files for you to run and edit!"
+desc: "The Full Edition comes with the eletronic book package and an archive with a PostgreSQL dump file ready to be restored in your own instance, plus all the 265 queries as separate files for you to run and edit!"
 background: "background-full-package"
 gumroad:
   - url: "https://gum.co/MasteringPostgreSQLinApplicationDevelopmentFullEdition?wanted=true"
@@ -11,7 +11,7 @@ gumroad:
 items:
   - icon: "fa-book"
     name: "The Book"
-    desc: "The Book is 328 pages of SQL queries. 265 of them actually, all answering a very clear use-case, that is given in plain English. Every query is explained in details."
+    desc: "The Book is a 328 pages PDF full of SQL queries. 265 of them actually, all answering a very clear use-case, that is given in plain English. Every query is explained in details."
 
   - icon: "fa-microphone"
     name: "5 Interviews"

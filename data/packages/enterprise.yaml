@@ -2,7 +2,7 @@ id: "enterprise"
 weight: 1
 name: "The Enterprise Edition"
 icon: "fa-building"
-desc: "Everything you need for your whole team to master SQL, including a licence to share the book, the database, the 265 query files and a licence to share everything with up to 50 people, you included!"
+desc: "Everything you need for your whole team to master SQL, including a licence to share the electronic version of the book, the database, the 265 query files and a licence to share everything with up to 50 people, you included!"
 background: "background-enterprise-package"
 gumroad:
   - url: "https://gum.co/MasteringPostgreSQLinApplicationDevelopmentEnterpriseEdition?wanted=true"
@@ -11,7 +11,7 @@ gumroad:
 items:
   - icon: "fa-book"
     name: "The Book"
-    desc: "The Book is 328 pages of SQL queries. 265 of them actually, all answering a very clear use-case, that is given in plain English. Every query is explained in details."
+    desc: "The Book is a 328 pages PDF full of SQL queries. 265 of them actually, all answering a very clear use-case, that is given in plain English. Every query is explained in details."
 
   - icon: "fa-microphone"
     name: "5 Interviews"
