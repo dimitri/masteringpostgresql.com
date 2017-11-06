@@ -14,7 +14,15 @@
           <p class="lead" style="text-align: justify;">
             {{ .Site.Params.packages.subtitle | markdownify }}
           </p>
-        </div>      
+        </div>
+
+        {{ with .Site.Params.packages.promo }}
+        <div class="col-md-12">
+          <p class="promo" style="text-align: justify;">
+            {{ . | markdownify }}
+          </p>
+        </div>
+        {{ end }}
     </div>
     <!-- /.container -->
 </section>

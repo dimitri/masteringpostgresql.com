@@ -168,3 +168,13 @@ figure.left {
 figure.right {
     float: right;
 }
+
+/*
+ * Packages promo
+ */
+p.promo {
+    color: purple;
+    font-size: 250%;
+    font-family: Garamond;    
+    font-variant-numeric: oldstyle-nums;
+}
