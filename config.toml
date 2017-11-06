@@ -56,6 +56,10 @@ architect and a DBA on-call. As a developer I enjoy using SQL. As a database
 architect, I like teaching advanced SQL techniques to my colleagues.
 """
 
+[params.tweets]
+        enable = true
+        title = "Users Testimonials"
+
 [params.features]
     enable = true
 
@@ -67,7 +71,7 @@ architect, I like teaching advanced SQL techniques to my colleagues.
 [params.see_more]
     enable = true
     icon = "fa fa-book"
-    title = "Get the Book!"
+    title = "Not convinced yet? Get the free Sample."
 
 [params.facts]
     enable = true

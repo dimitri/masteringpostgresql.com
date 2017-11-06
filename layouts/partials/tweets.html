@@ -1,0 +1,29 @@
+{{ if isset .Site.Params "tweets" }}
+{{ if .Site.Params.tweets.enable }}
+<section class="bar background-image-fixed-2 no-mb text-center color-white">
+  <div class="container">
+
+      <div class="col-md-12">
+        <div class="heading text-center">
+          <h2>{{ .Site.Params.tweets.title }}</h2>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/tapoueh?ref_src=twsrc%5Etfw">@tapoueh</a> Full edition of &quot;Mastering PostgreSQL…&quot; is BRILLIANT! Not just best PG resource ever but best tech-learning package I&#39;ve ever seen!</p>&mdash; Derek Sivers (@sivers) <a href="https://twitter.com/sivers/status/927646929781063681?ref_src=twsrc%5Etfw">November 6, 2017</a></blockquote>
+      </div>
+      <div class="col-md-6">        
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">At last the definitive Postgres book for app developers is out, and from the amazing <a href="https://twitter.com/tapoueh?ref_src=twsrc%5Etfw">@tapoueh</a> no less. Go get it!<a href="https://t.co/pCvVW65jei">https://t.co/pCvVW65jei</a></p>&mdash; Peter van Hardenberg (@pvh) <a href="https://twitter.com/pvh/status/927645148900605953?ref_src=twsrc%5Etfw">November 6, 2017</a></blockquote>
+      </div>
+      <div class="col-md-6">        
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Handy SQL trick by <a href="https://twitter.com/tapoueh?ref_src=twsrc%5Etfw">@tapoueh</a><a href="https://t.co/NwUVEbATkK">https://t.co/NwUVEbATkK</a> <a href="https://t.co/91UTPsy4p6">pic.twitter.com/91UTPsy4p6</a></p>&mdash; Joe Walnes (@joewalnes) <a href="https://twitter.com/joewalnes/status/927549088912039936?ref_src=twsrc%5Etfw">November 6, 2017</a></blockquote>
+      </div>
+      <div class="col-md-6">        
+        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I knew &quot;Mastering PostgreSQL&quot; had to be good, but being typeset with XeTeX tops it /cc <a href="https://twitter.com/tapoueh?ref_src=twsrc%5Etfw">@tapoueh</a></p>&mdash; Xavier Noria (@fxn) <a href="https://twitter.com/fxn/status/927639618358562817?ref_src=twsrc%5Etfw">November 6, 2017</a></blockquote>
+      </div>
+  </div>
+</section>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+{{ end }}
+{{ end }}
