@@ -1,7 +1,7 @@
 baseurl = "https://masteringpostgresql.com/"
 relativeURLs = false
 languageCode = "en-us"
-title = "Mastering PostgreSQL"
+title = "Mastering PostgreSQL in Application Development"
 
 #theme = "landing-page-hugo"
 theme = "universal"
@@ -16,6 +16,7 @@ googleAnalytics = "UA-47059482-3"
         style = "blue"
         date_format = "January 2, 2006"
         copyright = "© 2017, Dimitri Fontaine"
+        logo = "/img/MasteringPostgreSQLinAppDev-Cover.png"
 
 [params.topbar]
         enable = false

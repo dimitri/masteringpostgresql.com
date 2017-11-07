@@ -26,13 +26,13 @@
   </url>
   
   <url>
-    <loc>https://masteringpostgresql.com/</loc>
-    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://masteringpostgresql.com/services/</loc>
   </url>
   
   <url>
-    <loc>https://masteringpostgresql.com/services/</loc>
+    <loc>https://masteringpostgresql.com/</loc>
+    <lastmod>2015-07-18T14:08:35+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

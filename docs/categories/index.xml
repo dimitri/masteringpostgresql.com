@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Mastering PostgreSQL</title>
+    <title>Categories on Mastering PostgreSQL in Application Development</title>
     <link>https://masteringpostgresql.com/categories/</link>
-    <description>Recent content in Categories on Mastering PostgreSQL</description>
+    <description>Recent content in Categories on Mastering PostgreSQL in Application Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2017, Dimitri Fontaine</copyright>
