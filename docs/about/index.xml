@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Mastering PostgreSQL</title>
-    <link>http://masteringpostgresql.com/about/</link>
+    <link>https://masteringpostgresql.com/about/</link>
     <description>Recent content in Abouts on Mastering PostgreSQL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2017, Dimitri Fontaine</copyright>
     
-	<atom:link href="http://masteringpostgresql.com/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masteringpostgresql.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mastering PostgreSQL in Application Development</title>
-      <link>http://masteringpostgresql.com/about/book/</link>
+      <link>https://masteringpostgresql.com/about/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://masteringpostgresql.com/about/book/</guid>
+      <guid>https://masteringpostgresql.com/about/book/</guid>
       <description>I am writing a book to share my knowledge about how to best use PostgreSQL as an application developer. If you&amp;rsquo;ve ever asked yourself how much should I have my database do for me? this book is for you. If you&amp;rsquo;re thinking that using an ORM might not always be the best option out there, if sometimes you wish SQL was easier to maintain than those concatenated strings with conditionals, then this book can&amp;rsquo;t wait for you!</description>
     </item>
     

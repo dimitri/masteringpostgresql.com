@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mastering PostgreSQL</title>
-    <link>http://masteringpostgresql.com/tags/</link>
+    <link>https://masteringpostgresql.com/tags/</link>
     <description>Recent content in Tags on Mastering PostgreSQL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2017, Dimitri Fontaine</copyright>
     
-	<atom:link href="http://masteringpostgresql.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masteringpostgresql.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

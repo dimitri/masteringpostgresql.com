@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mastering PostgreSQL</title>
-    <link>http://masteringpostgresql.com/post/</link>
+    <link>https://masteringpostgresql.com/post/</link>
     <description>Recent content in Posts on Mastering PostgreSQL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2017, Dimitri Fontaine</copyright>
     <lastBuildDate>Sat, 18 Jul 2015 14:08:35 +0200</lastBuildDate>
     
-	<atom:link href="http://masteringpostgresql.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://masteringpostgresql.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About the Author</title>
-      <link>http://masteringpostgresql.com/post/about/</link>
+      <link>https://masteringpostgresql.com/post/about/</link>
       <pubDate>Sat, 18 Jul 2015 14:08:35 +0200</pubDate>
       
-      <guid>http://masteringpostgresql.com/post/about/</guid>
+      <guid>https://masteringpostgresql.com/post/about/</guid>
       <description>Hi! My name is Dimitri Fontaine and I have been using and contributing to Open Source Software for the best of the last twenty years. I took role as developer, maintainer, packager, release manager, software architect, database architect and administrator, sometimes devops. In the same time frame, I also have started several companies (they are still thriving) with a strong Open Source business model, and I have been in manager positions at times too, including at the Executive level in big companies.</description>
     </item>
     
