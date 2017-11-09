@@ -5,7 +5,7 @@ keywords = ["FAQ","How do I","questions","what if"]
 +++
 
 All you wanted to know about ***Mastering PostgreSQL in Application
-Developement***, the book you need to read as a developer to level-up your
+Development***, the book you need to read as a developer to level-up your
 SQL game!
 
 {{< figure class="left" src="/img/MasteringPostgreSQLinAppDev-Cover.png" >}}
