@@ -177,4 +177,13 @@ p.promo {
     font-size: 250%;
     font-family: Garamond;    
     font-variant-numeric: oldstyle-nums;
+    text-align: justify;
+}
+
+p.promo a {
+    color: purple;
+    font-family: Garamond;    
+    font-variant-numeric: oldstyle-nums;
+    font-style: italic;
+    font-weight: bold;
 }

@@ -30,14 +30,15 @@ googleAnalytics = "UA-47059482-3"
         subtitle = """
 Mastering PostgreSQL in Application Development comes in a choice of 4
 packages. From the classic and to the point package ***The Book*** to the
-***Enterprise Edtion***, your needs are covered. Our best sell is the ***Full
-Edition***, be sure to check it out!"""
-        promo = """
-Special for launch: thanks to this page getting a lot of views from [Hacker
-News](https://news.ycombinator.com/item?id=15634953) coverage, the Full
-Edition, the Enterprise Edition and the Book Edition are available at a **15%**
-discount for the next 48 hours with the `hackernews` Offer Code. Use it in
-the payment form!"""
+***Enterprise Edtion***, your needs are covered.
+"""
+        promo = "Our best sell is the [Full Edition](#full), be sure to check it out!"
+#         promo = """
+# Special for launch: thanks to this page getting a lot of views from [Hacker
+# News](https://news.ycombinator.com/item?id=15634953) coverage, the Full
+# Edition, the Enterprise Edition and the Book Edition are available at a **15%**
+# discount for the next 48 hours with the `hackernews` Offer Code. Use it in
+# the payment form!"""
 
 [params.author]
         enable = true
