@@ -15,6 +15,12 @@ p {
 
 .buy {
     background: #11436C;
+    border-radius: 10px;
+}
+
+.sample {
+    background: #135caf;
+    border-radius: 10px;
 }
 
 section.bar.no-mb.background-image-fixed-2.color-white p a {

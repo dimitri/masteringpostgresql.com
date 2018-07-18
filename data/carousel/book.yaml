@@ -7,7 +7,7 @@ The Book that teaches SQL to developers: learn to replace thousands of lines of 
 <a href=\"#packages\" class=\"btn-template-primary btn-lg badge buy\">
 <span style=\"font-size:150%;\">Buy the Book</span></a>
 
-<a href=\"#email\" class=\"btn-template-primary btn-lg badge buy\">
-<span style=\"font-size:150%;\">Get a Free Sample!</span></a>
+<a href=\"#email\" class=\"btn-template-primary btn-lg badge sample\">
+<span style=\"font-size:120%;\">Get a Free Sample!</span></a>
 "
 image: "img/MasteringPostgreSQLinAppDev-Cover.png"
