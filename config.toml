@@ -28,11 +28,11 @@ googleAnalytics = "UA-47059482-3"
         enable = true
         title = "The Packages"
         subtitle = """
-Mastering PostgreSQL in Application Development comes in a choice of 4
+Mastering PostgreSQL in Application Development comes in a choice of four
 packages. From the classic and to the point package ***The Book*** to the
-***Enterprise Edtion***, your needs are covered.
+***Enterprise Edtion***, your needs are covered!
 """
-        promo = "Our best sell is the [Full Edition](#full), be sure to check it out!"
+        promo = "Our best sell is [The Full Edition](#full), be sure to check it out!"
 #         promo = """
 # Special for launch: thanks to this page getting a lot of views from [Hacker
 # News](https://news.ycombinator.com/item?id=15634953) coverage, the Full

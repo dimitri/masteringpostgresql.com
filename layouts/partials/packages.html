@@ -16,6 +16,42 @@
           </p>
         </div>
 
+        {{ range sort .Site.Data.packages "weight" }}
+        <div class="col-md-3">
+          <h4 style="text-align: center">
+            <a href="#{{ .id }}" style="color: black;">
+              <i class="fa {{ .icon }} fa-4x" ></i>
+            </a>
+          </h4>
+          <h4 style="text-align: center">
+            <a href="#{{ .id }}" style="color: black;"> {{ .name }} </a>
+          </h4>
+          <p style="text-align: center">
+            {{ if .gumroad }}
+            {{ range first 1 .gumroad }}
+            <a href="{{ .url }}"
+               class="btn-template-primary btn-lg sample"
+               style="background: lightgrey; color: black; font-weight: bold; font-style: italic; font-size: 150%;" >
+              <span> {{ .price }} </span>
+            </a>
+            {{ end }}
+            {{ end }}
+            {{ if .lulu }}
+            {{ range first 1 .lulu }}
+            <a href="{{ .url }}"
+               class="btn-template-primary btn-lg sample"
+               style="background: lightgrey; color: black; font-weight: bold; font-style: italic; font-size: 150%;" >
+              <span> {{ .price }} </span>
+            </a>
+            {{ end }}
+            {{ end }}
+          </p>
+          <p>
+            {{ .desc | safeHTML | truncate 233 | markdownify }} </p>
+          </p>
+        </div>
+        {{end}}
+
         {{ with .Site.Params.packages.promo }}
         <div class="col-md-12">
           <p class="promo">
@@ -23,6 +59,13 @@
           </p>
         </div>
         {{ end }}
+
+        <div class="col-md-12">
+          <p>
+            Still not sure what package is best for you? See the full
+            details below…
+          </p>
+        </div>
     </div>
     <!-- /.container -->
 </section>
