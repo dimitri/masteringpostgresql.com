@@ -1,0 +1,71 @@
+<!-- <section class="bar no-mb background-white text-center" id="packages"> -->
+<section class="bar background-pentagon no-mb" id="packages">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading text-center">
+            <h2>{{ .Site.Params.packages.title }}</h2>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <p class="lead" style="text-align: justify;">
+            {{ .Site.Params.packages.subtitle | markdownify }}
+          </p>
+        </div>
+
+        {{ range sort .Site.Data.packages "weight" }}
+        <div class="col-md-3">
+          <h4 style="text-align: center">
+            <a href="#{{ .id }}" style="color: black;">
+              <i class="fa {{ .icon }} fa-4x" ></i>
+            </a>
+          </h4>
+          <h4 style="text-align: center">
+            <a href="#{{ .id }}" style="color: black;"> {{ .name }} </a>
+          </h4>
+          <p style="text-align: center">
+            {{ if .gumroad }}
+            {{ range first 1 .gumroad }}
+            <a href="{{ .url }}"
+               class="btn-template-primary btn-lg sample"
+               style="background: lightgrey; color: black; font-weight: bold; font-style: italic; font-size: 150%;" >
+              <span> {{ .price }} </span>
+            </a>
+            {{ end }}
+            {{ end }}
+            {{ if .lulu }}
+            {{ range first 1 .lulu }}
+            <a href="https://www.lulu.com/commerce/index.php?fBuyContent={{ .id }}"
+               class="btn-template-primary btn-lg sample"
+               style="background: lightgrey; color: black; font-weight: bold; font-style: italic; font-size: 150%;" >
+              <span> {{ .price }} </span>
+            </a>
+            {{ end }}
+            {{ end }}
+          </p>
+          <p>
+            {{ .desc | safeHTML | truncate 233 | markdownify }} </p>
+          </p>
+        </div>
+        {{end}}
+
+        {{ with .Site.Params.packages.promo }}
+        <div class="col-md-12">
+          <p class="promo">
+            {{ . | markdownify }}
+          </p>
+        </div>
+        {{ end }}
+
+        <div class="col-md-12">
+          <p style="font-size: 2em;">
+            Still not sure what package is best for you? See the full
+            details below…
+          </p>
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+
+<script src="https://gumroad.com/js/gumroad.js"></script>

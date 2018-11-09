@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Bookman';
+    src: url("../font/Bookman-Medium.woff2") format("woff2"), url("../font/Bookman-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
 p {
     text-align: justify;
     font-weight: normal;
@@ -63,7 +70,40 @@ section.bar.no-mb.background-dark-wall {
 }
 
 .background-dead-tree-package {
-  background: url('../img/CoverPhoto-640.png') center center no-repeat;
+    background: url('../img/CoverPhoto-640.png') center center no-repeat;
+}
+
+.background-taop {
+    background: #291b39 url("../img/cs-bg.png") no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.background-taop a {
+    color: white;
+}
+
+.ny-body {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  font-size: 3.75em;
+  font-family: "Bookman";
+}
+
+.ny-desc {
+    margin: 2vh 0;
+    text-align: center;
+}
+
+.ny-title {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.75em;
+  margin: 0;
+  color: white;
+  font-family: "Arima Madurai";
 }
 
 .home-carousel {
